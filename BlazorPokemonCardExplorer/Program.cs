@@ -1,4 +1,4 @@
-using BlazorPokemonCardExplorer.Components;
+using BlazorPokemonCardExplorer;
 
 var builder = WebApplication.CreateBuilder(args);
 
