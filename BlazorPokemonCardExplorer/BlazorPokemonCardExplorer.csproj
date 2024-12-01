@@ -19,6 +19,7 @@
     <ItemGroup>
       <PackageReference Include="ReactiveUI" Version="20.1.63" />
       <PackageReference Include="ReactiveUI.Blazor" Version="20.1.63" />
+      <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" />
     </ItemGroup>
 
 </Project>
