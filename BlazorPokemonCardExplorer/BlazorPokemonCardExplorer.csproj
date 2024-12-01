@@ -7,8 +7,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Pages\ViewModels\" />
-      <Folder Include="Pages\Views\" />
+      <Folder Include="Shared\Components\ViewModels\" />
+      <Folder Include="Shared\Components\Views\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Shared\Layout\MainLayout.razor" />
+      <AdditionalFiles Include="Shared\Layout\NavMenu.razor" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ReactiveUI" Version="20.1.63" />
+      <PackageReference Include="ReactiveUI.Blazor" Version="20.1.63" />
     </ItemGroup>
 
 </Project>
